@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="overlay">
+            <h1 class="heading">Set Your Countdown</h1>
+            <div class="sel">
+                <h2>Select a date</h2>
+                <input type="date" id="date" placeholder="select a date" style="width:200px;">
+                
+            </div>
+            <button id="submit">Set</button>
+            <div class="col">
+                <div>
+                  <input type="text" id="tag1" value="0" readonly>
+                  <br>
+                  <label id="text" for="">Days</label>
+                </div>
+                <div>
+                    <input type="text" id="tag2" value="0" readonly>
+                    <br>
+                    <label id="text" for="">Hours</label>
+                  </div>
+                  <div>
+                    <input type="text" id="tag3" value="0" readonly>
+                    <br>
+                    <label id="text" for="">Minutes</label>
+                  </div>
+                  <div>
+                    <input type="text" id="tag4" value="0" readonly>
+                    <br>
+                    <label id="text" for="">Seconds</label>
+                  </div>
+            </div>
+                     
+            
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
